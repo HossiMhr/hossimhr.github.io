@@ -1,9 +1,86 @@
-<html>
- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Design System</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif|Varela+Round" rel="stylesheet">
+</head>
 <body>
-  <h1>HossiMhr</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+    <div id="main_wrap">
+        <header>
+            <h1>My website Design system</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#color-container">Colors</a></li>
+                <li><a href="#font-container">Fonts</a></li>
+                <li><a href="#txtStyle">Text Styles</a></li>
+            </ul>
+        </nav>
+        <section class="attribute">
+            <h2>Colors</h2>
+            <section class="color-container" id="color-container">
+                <div class="color-panel gray">
+                    <p class="color-label">Gray</p>
+                    <p class="color-code">RGB (128, 128, 128)</p>
+                </div>
+                <div class="color-panel royalblue">
+                    <p class="color-label">royalblue</p>
+                    <p class="color-code">RGB (65, 105, 225)</p>
+                </div>
+            </section>
+        </section>
+        <section class="attribute">
+            <h2>Fonts</h2>
+            <div class="font-container" id="font-container">
+                <div class="font-panel">
+                    <p class="font-label Varela-Round">Varela Round</p>
+                    <p class="regular Varela-Round">The quick brown fox jumps over the lazy dog.</p>
+
+                </div>
+                <div class="font-panel">
+                    <p class="font-label Noto-Serif">Noto Serif</p>
+                    <p class="regular Noto-Serif">The quick brown fox jumps over the lazy dog.</p>
+
+                </div>
+            </div>
+        </section>
+        <section class="attribute">
+            <h2>Text Styles</h2>
+            <div class="text-style-container" id="txtStyle">
+                <div class="text-style-panel">
+                    <h1>H1: Main page heading</h1>
+                    <ul>
+                        <li>Font-Family: Varela Round</li>
+                        <li>Font-weight: normal</li>
+                        <li>Font-Size: 48px</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-style-container">
+                <div class="text-style-panel">
+                    <h2>H2: Subheading</h2>
+                    <ul>
+                        <li>Font-Family: Noto Serif</li>
+                        <li>Font-weight: normal</li>
+                        <li>Font-Size: 20px</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-style-container">
+                <div class="text-style-panel">
+                    <p>P: Paragraph text</p>
+                    <ul>
+                        <li>Font-Family: Noto Serif</li>
+                        <li>Font-weight: normal</li>
+                        <li>Font-Size: 15px</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </div>
 </body>
- 
 </html>

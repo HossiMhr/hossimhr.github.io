@@ -1,0 +1,143 @@
+
+/* FONTS */
+/* Font-Family: 'Varela Round', Sans-Serif;
+Font-Size: 48px;
+
+Font-Family: 'Noto Serif', Serif;
+Font-Size: 15px; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    Font-Family: 'Noto Serif', Serif;
+    Font-Size: 15px;
+    margin: 0 10%;
+}
+
+#main_wrap {
+    width: 85%;
+    /* background-color: chartreuse; */
+    margin: auto;
+    padding: 0 10px;
+}
+
+header{
+    text-align: center;
+    padding: 40px;
+}
+
+header h1{
+    Font-Family: 'Varela Round', Sans-Serif;
+    font-size: 45px;
+}
+
+h2 {
+    Font-Family: 'Noto Serif', Serif;
+    Font-Size: 20px;
+    margin-bottom: 15px;
+}
+
+nav {
+    text-align: center;
+    border: 1px solid #888;
+    border-radius: 5px 5px 0 0; 
+    background-color: rgba(100, 100, 100, 0.082);
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a{
+    display: inline-block;
+    margin-right: 10px;
+    /* background-color: cornflowerblue; */
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav li a:hover {
+    /* border-bottom: 1px dotted gray; */
+    color: royalblue;
+}
+
+nav li + li a::before {
+    content: "|";
+    color: gray;
+    position: relative;
+    left: -25px;
+}
+
+.attribute {
+    border: 1px solid  rgb(236, 231, 231);
+    margin: 10px auto;
+    padding: 10px;
+    box-shadow: 2px 2px 8px #888888;
+    border-radius: 5px;
+}
+
+
+.color-container {
+    width: 100%;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    min-height: 100px;
+    margin: 20px auto;
+
+}
+
+.gray {
+    background-color: gray;
+    color: white;
+}
+
+.royalblue {
+    background-color: royalblue;
+    color: white;
+}
+p.color-label {
+    margin-top: 9%;
+}
+
+.font-container {
+    margin: 10px 0;
+
+}
+
+.font-panel {
+    display: inline-block;
+    width: 45%;
+}
+
+.font-label {
+    text-decoration: underline;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.regular {
+    font-style: normal;
+}
+.Varela-Round {
+    Font-Family: 'Varela Round', Sans-Serif;
+}
+
+.Noto-Serif {
+    font-family: 'Noto Serif', Sans-Serif ;
+}
+
+.text-style-container {
+    margin: 10px auto;
+}
+
+.text-style-panel ul {
+    padding-left: 50px;
+}
